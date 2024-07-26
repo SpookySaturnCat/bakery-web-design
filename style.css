@@ -7,7 +7,7 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100dvh;
     background: #E7DECD;
 }
 
@@ -73,9 +73,9 @@ body {
     cursor: pointer;
     display: block;
     margin: 5px auto 0px auto;
-    width: 11vw;
-    height: 4.5vw;
-    font-size: 1.5vw;
+    width: 11dvw;
+    height: 4.5dvw;
+    font-size: 1.5dvw;
     background-color: #E5BDB5;
     color: #3B3D30;
 }
@@ -91,29 +91,29 @@ body {
 }
 
 .overlay-text h6 {
-    font-size: 1.2vw;
+    font-size: 1.2dvw;
 }
 
 .overlay-text p {
-    font-size: 2vw;
+    font-size: 2dvw;
 }
 
 .icon-display {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 9vw;
-    padding-bottom: 9vw;
+    padding-top: 9dvw;
+    padding-bottom: 9dvw;
 }
 
 .large-shopping-container {
     background-color: #f1f1f1;
-    padding: 3vw 4vw 2vw 4vw;
+    padding: 3dvw 4dvw 2dvw 4dvw;
 }
 
 .large-shopping-container h2 {
     text-align: center;
-    padding-bottom: 2vw;
+    padding-bottom: 2dvw;
 }
 
 .small-shopping-container {
@@ -127,28 +127,28 @@ body {
 }
 
 .resize-shopping {
-    width: 16vw;
+    width: 16dvw;
     height: auto;
     border-radius: 5%;
     border: .5px;
     display: block;
     margin: auto;
-    padding-bottom: 2vw;
+    padding-bottom: 2dvw;
 }
 
 .individual-shopping-container {
     flex: 0 0 auto; /* Prevents the flex items from shrinking */
-    width: 20vw;
+    width: 20dvw;
     border-radius: 5%;
     background-color: #faf8f4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     overflow: hidden;
-    font-size: 1.25vw;
+    font-size: 1.25dvw;
 }
 
 .individual-shopping-container p {
-    font-size: 1vw;
+    font-size: 1dvw;
 }
 
 
@@ -164,9 +164,9 @@ body {
     border-color: transparent;
     cursor: pointer;
     display: block;
-    width: 9vw;
-    height: 3vw;
-    font-size: 1.5vw;
+    width: 9dvw;
+    height: 3dvw;
+    font-size: 1.5dvw;
     background-color: #3B3D30;
     color: #f1f1f1;
 }
@@ -176,7 +176,7 @@ body {
 }
 
 .price-and-order p {
-    font-size: 2vw;
+    font-size: 2dvw;
 }
 
 /* width */
@@ -213,8 +213,8 @@ body {
  */
 
  .locations-img {
-    width: 18vw;
-    height: 18vw;
+    width: 18dvw;
+    height: 18dvw;
     margin: auto;
     border: 3px solid #3B3D30;
     border-radius: 100%;
@@ -223,21 +223,21 @@ body {
  }
 
  .locations h1 {
-    font-size:2.5vw;
+    font-size:2.5dvw;
     text-align: center;
-    padding: 2vw;
+    padding: 2dvw;
     color: #3B3D30;
  }
 
  .locations-child {
     flex: 0 0 auto;
-    width: 20vw;
+    width: 20dvw;
     border-radius: 5%;
     background-color: #faf8f4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 1vw;
+    padding: 1dvw;
     overflow: hidden;
-    font-size: 1.25vw;
+    font-size: 1.25dvw;
 }
 
 .locations-child:hover {
@@ -249,19 +249,19 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 2vw; /* Adds space between the containers */
+    gap: 2dvw; /* Adds space between the containers */
     margin: auto;
-    padding-bottom: 4vw;
+    padding-bottom: 4dvw;
 }
 
 .locations-container h3 {
     text-align: center;
-    padding: 2vw 0 1vw 0;
+    padding: 2dvw 0 1dvw 0;
 }
 
 .locations-container p {
     text-align: center;
-    padding-bottom: 2vw;
+    padding-bottom: 2dvw;
 }
 
 .locations-container button {
@@ -269,9 +269,9 @@ body {
     border-color: transparent;
     cursor: pointer;
     display: block;
-    width: 9.3vw;
-    height: 2.7vw;
-    font-size: 1.3vw;
+    width: 9.3dvw;
+    height: 2.7dvw;
+    font-size: 1.3dvw;
     background-color: #3B3D30;
     color: #faf8f4;
     padding: 0px;
@@ -281,6 +281,11 @@ body {
 
 .locations-container button:hover {
     background: #1c1d17; 
+}
+
+.footer-container {
+    background-color: #3B3D30;
+    padding: 2dvw;
 }
 
  
